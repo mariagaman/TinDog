@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+h2.testimonial{
+  text-align: center;
+  font-size: 30px;
+}
+div.testimonial{
+  justify-content: center;
+  display:flex;
+}
+.dog-center{
+ 
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+div.container-dog{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+.dog-center{
+  display:flex;
+  justify-content: center;
+}
+div.embleme{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.poza{
+  display:flex;
+  justify-content: center;
+}
+
